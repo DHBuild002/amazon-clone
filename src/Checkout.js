@@ -1,8 +1,10 @@
+//import { ShoppingBasket } from "@material-ui/icons";
 import React from "react";
 import "./Checkout.css";
 import Subtotal from "./Subtotal";
 
 function Checkout() {
+
   return (
     <div className="checkout">
       <div className="checkout__left">
@@ -12,12 +14,22 @@ function Checkout() {
           alt=""
         />
           <h2 className="checkout__title">Your Shopping Basket</h2>
+          {/*checkoutProduct*/}
+          {/*checkoutProduct*/}
+          {/*checkoutProduct*/}
+          {/*checkoutProduct*/}
+          {/*checkoutProduct*/}
        </div>
+
       <div className="checkout__right">
         <Subtotal />
       </div>
-    </div>
+
+     
+      
     
+      
+      </div>    
   );
 }
 
